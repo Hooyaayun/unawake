@@ -1,0 +1,1111 @@
+{
+  "taskTemp": {
+    "name": "免唤醒词录制-车联网-V1.0.1",
+    "schemaId": 2,
+    "describe": "免唤醒词录制-车联网-V1.0.1",
+    "fatherTempId": 0,
+    "isSubjectDynamic": 1,
+    "productId": "",
+    "layout": {
+      "layoutTempId": 4,
+      "layoutName": "免唤醒词录制-车联网-V1.0.1",
+      "layoutDetails": "免唤醒词录制-车联网-V1.0.1",
+      "platformIds": [
+        4,
+        1
+      ],
+      "remarksInfo": {
+        "comId": 1,
+        "subjectTempIds": [
+          1
+        ],
+        "subjects": [
+          {
+            "id": 1,
+            "keyName": "",
+            "describe": "免唤醒词录制",
+            "type": 10
+          }
+        ]
+      },
+      "formsInfo": [
+        {
+          "comId": 33,
+          "comExtProperties": {},
+          "subjectTempIds": [
+            4
+          ],
+          "comWidth": "0.0",
+          "subjects": [
+            {
+              "id": 4,
+              "keyName": "",
+              "type": 1,
+              "describe": "请录入采集人信息",
+              "detail": "",
+              "order": 2,
+              "descKeyNames": "",
+              "detailKeyNames": "",
+              "conversion": {},
+              "anwserType": 0,
+              "options": []
+            }
+          ]
+        },
+        {
+          "comId": 29,
+          "comExtProperties": {},
+          "subjectTempIds": [
+            5
+          ],
+          "comWidth": "0.0",
+          "subjects": [
+            {
+              "id": 5,
+              "keyName": "collected_person_name",
+              "type": 1,
+              "describe": "姓名",
+              "detail": "",
+              "order": 2,
+              "descKeyNames": "",
+              "detailKeyNames": "",
+              "conversion": {
+                "required": "true"
+              },
+              "anwserType": 0,
+              "options": []
+            }
+          ]
+        },
+        {
+          "comId": 28,
+          "comExtProperties": {},
+          "subjectTempIds": [
+            6
+          ],
+          "comWidth": "0.0",
+          "subjects": [
+            {
+              "id": 6,
+              "keyName": "gender",
+              "type": 1,
+              "describe": "性别",
+              "detail": "",
+              "order": 2,
+              "descKeyNames": "",
+              "detailKeyNames": "",
+              "conversion": {
+                "required": "true"
+              },
+              "anwserType": 0,
+              "options": [
+                {
+                  "seq": "1",
+                  "val": "男",
+                  "selected": 0
+                },
+                {
+                  "seq": "2",
+                  "val": "女",
+                  "selected": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "comId": 28,
+          "comExtProperties": {},
+          "subjectTempIds": [
+            7
+          ],
+          "comWidth": "0.0",
+          "subjects": [
+            {
+              "id": 7,
+              "keyName": "age_section",
+              "type": 1,
+              "describe": "年龄",
+              "detail": "",
+              "order": 2,
+              "descKeyNames": "",
+              "detailKeyNames": "",
+              "conversion": {
+                "required": "true"
+              },
+              "anwserType": 0,
+              "options": [
+                {
+                  "seq": "1",
+                  "val": "1",
+                  "selected": 0
+                },
+                {
+                  "seq": "2",
+                  "val": "2",
+                  "selected": 0
+                },
+                {
+                  "seq": "3",
+                  "val": "3",
+                  "selected": 0
+                },
+                {
+                  "seq": "4",
+                  "val": "4",
+                  "selected": 0
+                },
+                {
+                  "seq": "5",
+                  "val": "5",
+                  "selected": 0
+                },
+                {
+                  "seq": "6",
+                  "val": "6",
+                  "selected": 0
+                },
+                {
+                  "seq": "7",
+                  "val": "7",
+                  "selected": 0
+                },
+                {
+                  "seq": "8",
+                  "val": "8",
+                  "selected": 0
+                },
+                {
+                  "seq": "9",
+                  "val": "9",
+                  "selected": 0
+                },
+                {
+                  "seq": "10",
+                  "val": "10",
+                  "selected": 0
+                },
+                {
+                  "seq": "11",
+                  "val": "11",
+                  "selected": 0
+                },
+                {
+                  "seq": "12",
+                  "val": "12",
+                  "selected": 0
+                },
+                {
+                  "seq": "13",
+                  "val": "13",
+                  "selected": 0
+                },
+                {
+                  "seq": "14",
+                  "val": "14",
+                  "selected": 0
+                },
+                {
+                  "seq": "15",
+                  "val": "15",
+                  "selected": 0
+                },
+                {
+                  "seq": "16",
+                  "val": "16",
+                  "selected": 0
+                },
+                {
+                  "seq": "17",
+                  "val": "17",
+                  "selected": 0
+                },
+                {
+                  "seq": "18",
+                  "val": "18",
+                  "selected": 0
+                },
+                {
+                  "seq": "19",
+                  "val": "19",
+                  "selected": 0
+                },
+                {
+                  "seq": "20",
+                  "val": "20",
+                  "selected": 0
+                },
+                {
+                  "seq": "21",
+                  "val": "21",
+                  "selected": 0
+                },
+                {
+                  "seq": "22",
+                  "val": "22",
+                  "selected": 0
+                },
+                {
+                  "seq": "23",
+                  "val": "23",
+                  "selected": 0
+                },
+                {
+                  "seq": "24",
+                  "val": "24",
+                  "selected": 0
+                },
+                {
+                  "seq": "25",
+                  "val": "25",
+                  "selected": 0
+                },
+                {
+                  "seq": "26",
+                  "val": "26",
+                  "selected": 0
+                },
+                {
+                  "seq": "27",
+                  "val": "27",
+                  "selected": 0
+                },
+                {
+                  "seq": "28",
+                  "val": "28",
+                  "selected": 0
+                },
+                {
+                  "seq": "29",
+                  "val": "29",
+                  "selected": 0
+                },
+                {
+                  "seq": "30",
+                  "val": "30",
+                  "selected": 0
+                },
+                {
+                  "seq": "31",
+                  "val": "31",
+                  "selected": 0
+                },
+                {
+                  "seq": "32",
+                  "val": "32",
+                  "selected": 0
+                },
+                {
+                  "seq": "33",
+                  "val": "33",
+                  "selected": 0
+                },
+                {
+                  "seq": "34",
+                  "val": "34",
+                  "selected": 0
+                },
+                {
+                  "seq": "35",
+                  "val": "35",
+                  "selected": 0
+                },
+                {
+                  "seq": "36",
+                  "val": "36",
+                  "selected": 0
+                },
+                {
+                  "seq": "37",
+                  "val": "37",
+                  "selected": 0
+                },
+                {
+                  "seq": "38",
+                  "val": "38",
+                  "selected": 0
+                },
+                {
+                  "seq": "39",
+                  "val": "39",
+                  "selected": 0
+                },
+                {
+                  "seq": "40",
+                  "val": "40",
+                  "selected": 0
+                },
+                {
+                  "seq": "41",
+                  "val": "41",
+                  "selected": 0
+                },
+                {
+                  "seq": "42",
+                  "val": "42",
+                  "selected": 0
+                },
+                {
+                  "seq": "43",
+                  "val": "43",
+                  "selected": 0
+                },
+                {
+                  "seq": "44",
+                  "val": "44",
+                  "selected": 0
+                },
+                {
+                  "seq": "45",
+                  "val": "45",
+                  "selected": 0
+                },
+                {
+                  "seq": "46",
+                  "val": "46",
+                  "selected": 0
+                },
+                {
+                  "seq": "47",
+                  "val": "47",
+                  "selected": 0
+                },
+                {
+                  "seq": "48",
+                  "val": "48",
+                  "selected": 0
+                },
+                {
+                  "seq": "49",
+                  "val": "49",
+                  "selected": 0
+                },
+                {
+                  "seq": "50",
+                  "val": "50",
+                  "selected": 0
+                },
+                {
+                  "seq": "51",
+                  "val": "51",
+                  "selected": 0
+                },
+                {
+                  "seq": "52",
+                  "val": "52",
+                  "selected": 0
+                },
+                {
+                  "seq": "53",
+                  "val": "53",
+                  "selected": 0
+                },
+                {
+                  "seq": "54",
+                  "val": "54",
+                  "selected": 0
+                },
+                {
+                  "seq": "55",
+                  "val": "55",
+                  "selected": 0
+                },
+                {
+                  "seq": "56",
+                  "val": "56",
+                  "selected": 0
+                },
+                {
+                  "seq": "57",
+                  "val": "57",
+                  "selected": 0
+                },
+                {
+                  "seq": "58",
+                  "val": "58",
+                  "selected": 0
+                },
+                {
+                  "seq": "59",
+                  "val": "59",
+                  "selected": 0
+                },
+                {
+                  "seq": "60",
+                  "val": "60",
+                  "selected": 0
+                },
+                {
+                  "seq": "61",
+                  "val": "61",
+                  "selected": 0
+                },
+                {
+                  "seq": "62",
+                  "val": "62",
+                  "selected": 0
+                },
+                {
+                  "seq": "63",
+                  "val": "63",
+                  "selected": 0
+                },
+                {
+                  "seq": "64",
+                  "val": "64",
+                  "selected": 0
+                },
+                {
+                  "seq": "65",
+                  "val": "65",
+                  "selected": 0
+                },
+                {
+                  "seq": "66",
+                  "val": "66",
+                  "selected": 0
+                },
+                {
+                  "seq": "67",
+                  "val": "67",
+                  "selected": 0
+                },
+                {
+                  "seq": "68",
+                  "val": "68",
+                  "selected": 0
+                },
+                {
+                  "seq": "69",
+                  "val": "69",
+                  "selected": 0
+                },
+                {
+                  "seq": "70",
+                  "val": "70",
+                  "selected": 0
+                },
+                {
+                  "seq": "71",
+                  "val": "71",
+                  "selected": 0
+                },
+                {
+                  "seq": "72",
+                  "val": "72",
+                  "selected": 0
+                },
+                {
+                  "seq": "73",
+                  "val": "73",
+                  "selected": 0
+                },
+                {
+                  "seq": "74",
+                  "val": "74",
+                  "selected": 0
+                },
+                {
+                  "seq": "75",
+                  "val": "75",
+                  "selected": 0
+                },
+                {
+                  "seq": "76",
+                  "val": "76",
+                  "selected": 0
+                },
+                {
+                  "seq": "77",
+                  "val": "77",
+                  "selected": 0
+                },
+                {
+                  "seq": "78",
+                  "val": "78",
+                  "selected": 0
+                },
+                {
+                  "seq": "79",
+                  "val": "79",
+                  "selected": 0
+                },
+                {
+                  "seq": "80",
+                  "val": "80",
+                  "selected": 0
+                },
+                {
+                  "seq": "81",
+                  "val": "81",
+                  "selected": 0
+                },
+                {
+                  "seq": "82",
+                  "val": "82",
+                  "selected": 0
+                },
+                {
+                  "seq": "83",
+                  "val": "83",
+                  "selected": 0
+                },
+                {
+                  "seq": "84",
+                  "val": "84",
+                  "selected": 0
+                },
+                {
+                  "seq": "85",
+                  "val": "85",
+                  "selected": 0
+                },
+                {
+                  "seq": "86",
+                  "val": "86",
+                  "selected": 0
+                },
+                {
+                  "seq": "87",
+                  "val": "87",
+                  "selected": 0
+                },
+                {
+                  "seq": "88",
+                  "val": "88",
+                  "selected": 0
+                },
+                {
+                  "seq": "89",
+                  "val": "89",
+                  "selected": 0
+                },
+                {
+                  "seq": "90",
+                  "val": "90",
+                  "selected": 0
+                },
+                {
+                  "seq": "91",
+                  "val": "91",
+                  "selected": 0
+                },
+                {
+                  "seq": "92",
+                  "val": "92",
+                  "selected": 0
+                },
+                {
+                  "seq": "93",
+                  "val": "93",
+                  "selected": 0
+                },
+                {
+                  "seq": "94",
+                  "val": "94",
+                  "selected": 0
+                },
+                {
+                  "seq": "95",
+                  "val": "95",
+                  "selected": 0
+                },
+                {
+                  "seq": "96",
+                  "val": "96",
+                  "selected": 0
+                },
+                {
+                  "seq": "97",
+                  "val": "97",
+                  "selected": 0
+                },
+                {
+                  "seq": "98",
+                  "val": "98",
+                  "selected": 0
+                },
+                {
+                  "seq": "99",
+                  "val": "99",
+                  "selected": 0
+                },
+                {
+                  "seq": "100",
+                  "val": "100",
+                  "selected": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "comId": 28,
+          "comExtProperties": {},
+          "subjectTempIds": [
+            8
+          ],
+          "comWidth": "0.0",
+          "subjects": [
+            {
+              "id": 8,
+              "keyName": "birth_place",
+              "type": 1,
+              "describe": "出生地",
+              "detail": "",
+              "order": 2,
+              "descKeyNames": "",
+              "detailKeyNames": "",
+              "conversion": {
+                "required": "true"
+              },
+              "anwserType": 0,
+              "options": [
+                {
+                  "seq": "1",
+                  "val": "北京市",
+                  "selected": 0
+                },
+                {
+                  "seq": "2",
+                  "val": "天津市",
+                  "selected": 0
+                },
+                {
+                  "seq": "3",
+                  "val": "河北省",
+                  "selected": 0
+                },
+                {
+                  "seq": "4",
+                  "val": "山西省",
+                  "selected": 0
+                },
+                {
+                  "seq": "5",
+                  "val": "内蒙古自治区",
+                  "selected": 0
+                },
+                {
+                  "seq": "6",
+                  "val": "辽宁省",
+                  "selected": 0
+                },
+                {
+                  "seq": "7",
+                  "val": "吉林省",
+                  "selected": 0
+                },
+                {
+                  "seq": "8",
+                  "val": "黑龙江省",
+                  "selected": 0
+                },
+                {
+                  "seq": "9",
+                  "val": "上海市",
+                  "selected": 0
+                },
+                {
+                  "seq": "10",
+                  "val": "江苏省",
+                  "selected": 0
+                },
+                {
+                  "seq": "11",
+                  "val": "浙江省",
+                  "selected": 0
+                },
+                {
+                  "seq": "12",
+                  "val": "安徽省",
+                  "selected": 0
+                },
+                {
+                  "seq": "13",
+                  "val": "福建省",
+                  "selected": 0
+                },
+                {
+                  "seq": "14",
+                  "val": "江西省",
+                  "selected": 0
+                },
+                {
+                  "seq": "15",
+                  "val": "山东省",
+                  "selected": 0
+                },
+                {
+                  "seq": "16",
+                  "val": "河南省",
+                  "selected": 0
+                },
+                {
+                  "seq": "17",
+                  "val": "湖北省",
+                  "selected": 0
+                },
+                {
+                  "seq": "18",
+                  "val": "湖南省",
+                  "selected": 0
+                },
+                {
+                  "seq": "19",
+                  "val": "广东省",
+                  "selected": 0
+                },
+                {
+                  "seq": "20",
+                  "val": "广西壮族自治区",
+                  "selected": 0
+                },
+                {
+                  "seq": "21",
+                  "val": "海南省",
+                  "selected": 0
+                },
+                {
+                  "seq": "22",
+                  "val": "重庆市",
+                  "selected": 0
+                },
+                {
+                  "seq": "23",
+                  "val": "四川省",
+                  "selected": 0
+                },
+                {
+                  "seq": "24",
+                  "val": "贵州省",
+                  "selected": 0
+                },
+                {
+                  "seq": "25",
+                  "val": "云南省",
+                  "selected": 0
+                },
+                {
+                  "seq": "26",
+                  "val": "西藏自治区",
+                  "selected": 0
+                },
+                {
+                  "seq": "27",
+                  "val": "陕西省",
+                  "selected": 0
+                },
+                {
+                  "seq": "28",
+                  "val": "甘肃省",
+                  "selected": 0
+                },
+                {
+                  "seq": "29",
+                  "val": "青海省",
+                  "selected": 0
+                },
+                {
+                  "seq": "30",
+                  "val": "宁夏回族自治区",
+                  "selected": 0
+                },
+                {
+                  "seq": "31",
+                  "val": "新疆维吾尔自治区",
+                  "selected": 0
+                },
+                {
+                  "seq": "32",
+                  "val": "香港特别行政区",
+                  "selected": 0
+                },
+                {
+                  "seq": "33",
+                  "val": "澳门特别行政区",
+                  "selected": 0
+                },
+                {
+                  "seq": "34",
+                  "val": "台湾省",
+                  "selected": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "comId": 28,
+          "comExtProperties": {},
+          "subjectTempIds": [
+            9
+          ],
+          "comWidth": "0.0",
+          "subjects": [
+            {
+              "id": 9,
+              "keyName": "living_place",
+              "type": 1,
+              "describe": "现居地",
+              "detail": "",
+              "order": 2,
+              "descKeyNames": "",
+              "detailKeyNames": "",
+              "conversion": {
+                "required": "true"
+              },
+              "anwserType": 0,
+              "options": [
+                {
+                  "seq": "1",
+                  "val": "北京市",
+                  "selected": 0
+                },
+                {
+                  "seq": "2",
+                  "val": "天津市",
+                  "selected": 0
+                },
+                {
+                  "seq": "3",
+                  "val": "河北省",
+                  "selected": 0
+                },
+                {
+                  "seq": "4",
+                  "val": "山西省",
+                  "selected": 0
+                },
+                {
+                  "seq": "5",
+                  "val": "内蒙古自治区",
+                  "selected": 0
+                },
+                {
+                  "seq": "6",
+                  "val": "辽宁省",
+                  "selected": 0
+                },
+                {
+                  "seq": "7",
+                  "val": "吉林省",
+                  "selected": 0
+                },
+                {
+                  "seq": "8",
+                  "val": "黑龙江省",
+                  "selected": 0
+                },
+                {
+                  "seq": "9",
+                  "val": "上海市",
+                  "selected": 0
+                },
+                {
+                  "seq": "10",
+                  "val": "江苏省",
+                  "selected": 0
+                },
+                {
+                  "seq": "11",
+                  "val": "浙江省",
+                  "selected": 0
+                },
+                {
+                  "seq": "12",
+                  "val": "安徽省",
+                  "selected": 0
+                },
+                {
+                  "seq": "13",
+                  "val": "福建省",
+                  "selected": 0
+                },
+                {
+                  "seq": "14",
+                  "val": "江西省",
+                  "selected": 0
+                },
+                {
+                  "seq": "15",
+                  "val": "山东省",
+                  "selected": 0
+                },
+                {
+                  "seq": "16",
+                  "val": "河南省",
+                  "selected": 0
+                },
+                {
+                  "seq": "17",
+                  "val": "湖北省",
+                  "selected": 0
+                },
+                {
+                  "seq": "18",
+                  "val": "湖南省",
+                  "selected": 0
+                },
+                {
+                  "seq": "19",
+                  "val": "广东省",
+                  "selected": 0
+                },
+                {
+                  "seq": "20",
+                  "val": "广西壮族自治区",
+                  "selected": 0
+                },
+                {
+                  "seq": "21",
+                  "val": "海南省",
+                  "selected": 0
+                },
+                {
+                  "seq": "22",
+                  "val": "重庆市",
+                  "selected": 0
+                },
+                {
+                  "seq": "23",
+                  "val": "四川省",
+                  "selected": 0
+                },
+                {
+                  "seq": "24",
+                  "val": "贵州省",
+                  "selected": 0
+                },
+                {
+                  "seq": "25",
+                  "val": "云南省",
+                  "selected": 0
+                },
+                {
+                  "seq": "26",
+                  "val": "西藏自治区",
+                  "selected": 0
+                },
+                {
+                  "seq": "27",
+                  "val": "陕西省",
+                  "selected": 0
+                },
+                {
+                  "seq": "28",
+                  "val": "甘肃省",
+                  "selected": 0
+                },
+                {
+                  "seq": "29",
+                  "val": "青海省",
+                  "selected": 0
+                },
+                {
+                  "seq": "30",
+                  "val": "宁夏回族自治区",
+                  "selected": 0
+                },
+                {
+                  "seq": "31",
+                  "val": "新疆维吾尔自治区",
+                  "selected": 0
+                },
+                {
+                  "seq": "32",
+                  "val": "香港特别行政区",
+                  "selected": 0
+                },
+                {
+                  "seq": "33",
+                  "val": "澳门特别行政区",
+                  "selected": 0
+                },
+                {
+                  "seq": "34",
+                  "val": "台湾省",
+                  "selected": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "comId": 25,
+          "comExtProperties": {},
+          "subjectTempIds": [
+            13
+          ],
+          "comWidth": "0.0",
+          "subjects": [
+            {
+              "id": 13,
+              "keyName": "",
+              "type": 1,
+              "describe": "请用普通话读出下面文本，保证录音环境安静（录音前后保证2秒静音）",
+              "detail": "",
+              "order": 1,
+              "descKeyNames": "",
+              "detailKeyNames": "",
+              "conversion": {},
+              "anwserType": 0,
+              "options": []
+            }
+          ]
+        },
+        {
+          "comId": 33,
+          "comExtProperties": {},
+          "subjectTempIds": [
+            14
+          ],
+          "comWidth": "0.0",
+          "subjects": [
+            {
+              "id": 14,
+              "keyName": "",
+              "type": 1,
+              "describe": "",
+              "detail": "",
+              "order": 1,
+              "descKeyNames": "text",
+              "detailKeyNames": "",
+              "conversion": {},
+              "anwserType": 0,
+              "options": []
+            }
+          ]
+        },
+        {
+          "comId": 101,
+          "comExtProperties": {
+            "startCountDown": "2",
+            "endCountDown" : "2"
+          },
+          "subjectTempIds": [
+            15
+          ],
+          "comWidth": "0.0",
+          "subjects": [
+            {
+              "id": 15,
+              "keyName": "file_id",
+              "type": 1,
+              "describe": "",
+              "detail": "",
+              "order": 1,
+              "descKeyNames": "",
+              "detailKeyNames": "file_format",
+              "conversion": {
+                "required": "true"
+              },
+              "anwserType": 0,
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
