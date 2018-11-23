@@ -1,0 +1,321 @@
+{
+  "taskTemp": {
+    "name": "免唤醒词审核-车联网-V1.0.0",
+    "schemaId": 2,
+    "describe": "免唤醒词审核-车联网-V1.0.0",
+    "fatherTempId": 0,
+    "isSubjectDynamic": 1,
+    "productId": "",
+    "layout": {
+      "layoutTempId": 4,
+      "layoutName": "免唤醒词审核-车联网-V1.0.0",
+      "layoutDetails": "免唤醒词审核-车联网-V1.0.0",
+      "platformIds": [
+        4
+      ],
+      "remarksInfo": {
+        "comId": 1,
+        "subjectTempIds": [
+          1
+        ],
+        "subjects": [
+          {
+            "id": 1,
+            "keyName": "",
+            "describe": "免唤醒词审核-车联网-V1",
+            "type": 10
+          }
+        ]
+      },
+      "formsInfo": [
+        {
+          "comId": 42,
+          "comExtProperties": {
+            "resourceServer": "true",
+            "isAutoplay": "true"
+          },
+          "subjectTempIds": [
+            4
+          ],
+          "comWidth": "0.0",
+          "subjects": [
+            {
+              "id": 4,
+              "keyName": "",
+              "type": 1,
+              "describe": "",
+              "detail": "",
+              "order": 1,
+              "descKeyNames": "file_id",
+              "detailKeyNames": "file_format",
+              "conversion": {},
+              "anwserType": 0,
+              "options": []
+            }
+          ]
+        },
+		{
+          "comId": 25,
+          "comExtProperties": {},
+          "subjectTempIds": [
+            10
+          ],
+          "comWidth": "0.0",
+          "subjects": [
+            {
+              "id": 10,
+              "keyName": "",
+              "type": 1,
+              "describe": "标准文本如下：",
+              "detail": "",
+              "order": 1,
+              "descKeyNames": "",
+              "detailKeyNames": "",
+              "conversion": {},
+              "anwserType": 0,
+              "options": []
+            }
+          ]
+        },
+        {
+          "comId": 25,
+          "comExtProperties": {},
+          "subjectTempIds": [
+            5
+          ],
+          "comWidth": "0.0",
+          "subjects": [
+            {
+              "id": 5,
+              "keyName": "",
+              "type": 1,
+              "describe": "",
+              "detail": "",
+              "order": 1,
+              "descKeyNames": "text",
+              "detailKeyNames": "",
+              "conversion": {},
+              "anwserType": 0,
+              "options": []
+            }
+          ]
+        },
+        {
+          "comId": 2,
+          "comExtProperties": {},
+          "subjectTempIds": [
+            2
+          ],
+          "comWidth": "0.0",
+          "subjects": [
+            {
+              "id": 2,
+              "keyName": "anno_result",
+              "type": 1,
+              "describe": "音频内容是否与上述标准文本相同？",
+              "detail": "",
+              "order": 1,
+              "descKeyNames": "",
+              "detailKeyNames": "",
+              "conversion": {
+                "required": "true"
+              },
+              "anwserType": 0,
+              "options": [
+                {
+                  "seq": "1",
+                  "val": "相同",
+                  "selected": 0
+                },
+                {
+                  "seq": "2",
+                  "val": "不相同（错读，漏读，多读，无人声，听不清）",
+                  "selected": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "comId": 23,
+          "comExtProperties": {},
+          "subjectTempIds": [
+            6
+          ],
+          "comWidth": "0.0",
+          "subjects": [
+            {
+              "id": 6,
+              "keyName": "blurring_reason",
+              "type": 1,
+              "describe": "不相同原因",
+              "detail": "",
+              "order": 1,
+              "descKeyNames": "",
+              "detailKeyNames": "",
+              "conversion": {
+                "required": "subject_2==option_2",
+                "hide": "subject_2!=option_2"
+              },
+              "anwserType": 0,
+              "options": [
+                {
+                  "seq": "1",
+                  "val": "多读",
+                  "selected": 0
+                },
+                {
+                  "seq": "2",
+                  "val": "漏读",
+                  "selected": 0
+                },
+                {
+                  "seq": "3",
+                  "val": "错读",
+                  "selected": 0
+                },
+                {
+                  "seq": "4",
+                  "val": "无人声",
+                  "selected": 0
+                },
+                {
+                  "seq": "5",
+                  "val": "听不清",
+                  "selected": 0
+                },
+                {
+                  "seq": "6",
+                  "val": "其他（如：音频文本完全不相同）",
+                  "selected": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "comId": 23,
+          "comExtProperties": {
+			"vertical": "true"
+		  },
+          "subjectTempIds": [
+            7
+          ],
+          "comWidth": "0.0",
+          "subjects": [
+            {
+              "id": 7,
+              "keyName": "noise_type",
+              "type": 1,
+              "describe": "噪声类型",
+              "detail": "",
+              "order": 1,
+              "descKeyNames": "",
+              "detailKeyNames": "",
+              "conversion": {
+                "required": "subject_2!=option_2",
+                "hide": "subject_2!=option_1"
+              },
+              "anwserType": 0,
+              "options": [
+                {
+                  "seq": "1",
+                  "val": "无噪声",
+                  "selected": 0
+                },
+                {
+                  "seq": "2",
+                  "val": "人声噪声",
+                  "selected": 0
+                },
+				{
+                  "seq": "3",
+                  "val": "轻微噪声（噪声音量小或不持续，如室内空调声，轻微磕碰声）",
+                  "selected": 0
+                },
+                {
+                  "seq": "4",
+                  "val": "严重环境噪声（噪声音量大或持续，非室内环境，如：咖啡室录音，汽车鸣笛声，录音设备信息提醒等强电流声）",
+                  "selected": 0
+                },
+                {
+                  "seq": "5",
+                  "val": "严重喷麦（有明显的爆破音）",
+                  "selected": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "comId": 2,
+          "comExtProperties": {},
+          "subjectTempIds": [
+            9
+          ],
+          "comWidth": "0.0",
+          "subjects": [
+            {
+              "id": 9,
+              "keyName": "accent",
+              "type": 1,
+              "describe": "音频发音是否标准",
+              "detail": "",
+              "order": 1,
+              "descKeyNames": "",
+              "detailKeyNames": "",
+              "conversion": {
+                "required": "subject_2!=option_2",
+                "hide": "subject_2!=option_1"
+              },
+              "anwserType": 0,
+              "options": [
+                {
+                  "seq": "1",
+                  "val": "标准",
+                  "selected": 0
+                },
+                {
+                  "seq": "2",
+                  "val": "不标准",
+                  "selected": 0
+                },
+                {
+                  "seq": "3",
+                  "val": "轻微不标准（个别音不标准）",
+                  "selected": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "comId": 4,
+          "comExtProperties": {},
+          "subjectTempIds": [
+            3
+          ],
+          "comWidth": "0.0",
+          "subjects": [
+            {
+              "id": 3,
+              "keyName": "anno_remark",
+              "type": 1,
+              "describe": "请备注具体错误原因（如：XX字漏读等）",
+              "detail": "",
+              "order": 1,
+              "descKeyNames": "",
+              "detailKeyNames": "",
+              "conversion": {
+				"required": "subject_2==option_2",
+                "hide": "subject_2!=option_2"
+              },
+              "anwserType": 0,
+              "options": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
